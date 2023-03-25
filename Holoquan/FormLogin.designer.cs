@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +45,7 @@
             // txtTaikhoan
             // 
             this.txtTaikhoan.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTaikhoan.Location = new System.Drawing.Point(405, 262);
+            this.txtTaikhoan.Location = new System.Drawing.Point(379, 266);
             this.txtTaikhoan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTaikhoan.Name = "txtTaikhoan";
             this.txtTaikhoan.Size = new System.Drawing.Size(296, 40);
@@ -53,7 +54,7 @@
             // txtMatkhau
             // 
             this.txtMatkhau.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatkhau.Location = new System.Drawing.Point(405, 369);
+            this.txtMatkhau.Location = new System.Drawing.Point(379, 371);
             this.txtMatkhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMatkhau.Name = "txtMatkhau";
             this.txtMatkhau.Size = new System.Drawing.Size(296, 40);
@@ -63,7 +64,7 @@
             // buttonDangnhap
             // 
             this.buttonDangnhap.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.buttonDangnhap.Location = new System.Drawing.Point(236, 511);
+            this.buttonDangnhap.Location = new System.Drawing.Point(218, 511);
             this.buttonDangnhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonDangnhap.Name = "buttonDangnhap";
             this.buttonDangnhap.Size = new System.Drawing.Size(187, 82);
@@ -74,7 +75,7 @@
             // buttonThoat
             // 
             this.buttonThoat.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonThoat.Location = new System.Drawing.Point(529, 511);
+            this.buttonThoat.Location = new System.Drawing.Point(523, 511);
             this.buttonThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonThoat.Name = "buttonThoat";
             this.buttonThoat.Size = new System.Drawing.Size(187, 82);
@@ -86,7 +87,7 @@
             // 
             this.checkBoxMK.AutoSize = true;
             this.checkBoxMK.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxMK.Location = new System.Drawing.Point(405, 440);
+            this.checkBoxMK.Location = new System.Drawing.Point(398, 441);
             this.checkBoxMK.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBoxMK.Name = "checkBoxMK";
             this.checkBoxMK.Size = new System.Drawing.Size(173, 26);
@@ -106,7 +107,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(236, 344);
+            this.pictureBox3.Location = new System.Drawing.Point(218, 348);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(126, 81);
@@ -117,7 +118,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(236, 231);
+            this.pictureBox2.Location = new System.Drawing.Point(218, 231);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(126, 94);
@@ -125,11 +126,22 @@
             this.pictureBox2.TabIndex = 19;
             this.pictureBox2.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(355, 62);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(289, 63);
+            this.label2.TabIndex = 49;
+            this.label2.Text = "Đăng nhập";
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 701);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -158,6 +170,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
