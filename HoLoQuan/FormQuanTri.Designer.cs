@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonqlod = new System.Windows.Forms.Button();
             this.buttonKho = new System.Windows.Forms.Button();
             this.buttonBan = new System.Windows.Forms.Button();
             this.buttonTaikhoan = new System.Windows.Forms.Button();
@@ -38,15 +38,16 @@
             this.buttonDoanhthu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonqlod
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(497, 443);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 61);
-            this.button1.TabIndex = 54;
-            this.button1.Text = "Quản lý Order";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonqlod.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonqlod.Location = new System.Drawing.Point(497, 443);
+            this.buttonqlod.Name = "buttonqlod";
+            this.buttonqlod.Size = new System.Drawing.Size(182, 61);
+            this.buttonqlod.TabIndex = 54;
+            this.buttonqlod.Text = "Quản lý Order";
+            this.buttonqlod.UseVisualStyleBackColor = true;
+            this.buttonqlod.Click += new System.EventHandler(this.buttonqlod_Click);
             // 
             // buttonKho
             // 
@@ -57,6 +58,7 @@
             this.buttonKho.TabIndex = 53;
             this.buttonKho.Text = "Quản lý kho";
             this.buttonKho.UseVisualStyleBackColor = true;
+            this.buttonKho.Click += new System.EventHandler(this.buttonKho_Click);
             // 
             // buttonBan
             // 
@@ -67,6 +69,7 @@
             this.buttonBan.TabIndex = 52;
             this.buttonBan.Text = "Quản lý bàn";
             this.buttonBan.UseVisualStyleBackColor = true;
+            this.buttonBan.Click += new System.EventHandler(this.buttonBan_Click);
             // 
             // buttonTaikhoan
             // 
@@ -77,6 +80,7 @@
             this.buttonTaikhoan.TabIndex = 51;
             this.buttonTaikhoan.Text = "Quản lý tài khoản";
             this.buttonTaikhoan.UseVisualStyleBackColor = true;
+            this.buttonTaikhoan.Click += new System.EventHandler(this.buttonTaikhoan_Click);
             // 
             // buttonDangxuat
             // 
@@ -96,6 +100,7 @@
             this.buttonDanhmuc.TabIndex = 48;
             this.buttonDanhmuc.Text = "Quản lý danh mục";
             this.buttonDanhmuc.UseVisualStyleBackColor = true;
+            this.buttonDanhmuc.Click += new System.EventHandler(this.buttonDanhmuc_Click);
             // 
             // buttonMenu
             // 
@@ -106,6 +111,7 @@
             this.buttonMenu.TabIndex = 49;
             this.buttonMenu.Text = "Menu";
             this.buttonMenu.UseVisualStyleBackColor = true;
+            this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
             // 
             // buttonDoanhthu
             // 
@@ -116,6 +122,7 @@
             this.buttonDoanhthu.TabIndex = 50;
             this.buttonDoanhthu.Text = "Doanh thu";
             this.buttonDoanhthu.UseVisualStyleBackColor = true;
+            this.buttonDoanhthu.Click += new System.EventHandler(this.buttonDoanhthu_Click);
             // 
             // FormQuanTri
             // 
@@ -123,7 +130,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::HoLoQuan.Properties.Resources.background_nhe_nhang_dep;
             this.ClientSize = new System.Drawing.Size(938, 557);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonqlod);
             this.Controls.Add(this.buttonKho);
             this.Controls.Add(this.buttonBan);
             this.Controls.Add(this.buttonTaikhoan);
@@ -140,7 +147,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonqlod;
         private System.Windows.Forms.Button buttonKho;
         private System.Windows.Forms.Button buttonBan;
         private System.Windows.Forms.Button buttonTaikhoan;

@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHeThong));
             this.buttonDangxuat = new System.Windows.Forms.Button();
             this.buttonXuat = new System.Windows.Forms.Button();
             this.buttonDichvu = new System.Windows.Forms.Button();
-            this.buttonPhonghat = new System.Windows.Forms.Button();
+            this.buttonqlod = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonDangxuat
@@ -42,6 +43,7 @@
             this.buttonDangxuat.TabIndex = 39;
             this.buttonDangxuat.Text = "Đăng xuất";
             this.buttonDangxuat.UseVisualStyleBackColor = true;
+            this.buttonDangxuat.Click += new System.EventHandler(this.buttonDangxuat_Click);
             // 
             // buttonXuat
             // 
@@ -51,6 +53,7 @@
             this.buttonXuat.TabIndex = 40;
             this.buttonXuat.Text = "Nhập/xuất kho";
             this.buttonXuat.UseVisualStyleBackColor = true;
+            this.buttonXuat.Click += new System.EventHandler(this.buttonXuat_Click);
             // 
             // buttonDichvu
             // 
@@ -60,26 +63,28 @@
             this.buttonDichvu.TabIndex = 41;
             this.buttonDichvu.Text = "Thông tin cá nhân";
             this.buttonDichvu.UseVisualStyleBackColor = true;
+            this.buttonDichvu.Click += new System.EventHandler(this.buttonDichvu_Click);
             // 
-            // buttonPhonghat
+            // buttonqlod
             // 
-            this.buttonPhonghat.Location = new System.Drawing.Point(684, 166);
-            this.buttonPhonghat.Name = "buttonPhonghat";
-            this.buttonPhonghat.Size = new System.Drawing.Size(175, 59);
-            this.buttonPhonghat.TabIndex = 42;
-            this.buttonPhonghat.Text = "Quản lý Order";
-            this.buttonPhonghat.UseVisualStyleBackColor = true;
+            this.buttonqlod.Location = new System.Drawing.Point(684, 166);
+            this.buttonqlod.Name = "buttonqlod";
+            this.buttonqlod.Size = new System.Drawing.Size(175, 59);
+            this.buttonqlod.TabIndex = 42;
+            this.buttonqlod.Text = "Quản lý Order";
+            this.buttonqlod.UseVisualStyleBackColor = true;
+            this.buttonqlod.Click += new System.EventHandler(this.buttonqlod_Click);
             // 
             // FormHeThong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HoLoQuan.Properties.Resources.background_nhe_nhang_dep;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(937, 580);
             this.Controls.Add(this.buttonDangxuat);
             this.Controls.Add(this.buttonXuat);
             this.Controls.Add(this.buttonDichvu);
-            this.Controls.Add(this.buttonPhonghat);
+            this.Controls.Add(this.buttonqlod);
             this.Name = "FormHeThong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormHeThong";
@@ -92,6 +97,6 @@
         private System.Windows.Forms.Button buttonDangxuat;
         private System.Windows.Forms.Button buttonXuat;
         private System.Windows.Forms.Button buttonDichvu;
-        private System.Windows.Forms.Button buttonPhonghat;
+        private System.Windows.Forms.Button buttonqlod;
     }
 }
