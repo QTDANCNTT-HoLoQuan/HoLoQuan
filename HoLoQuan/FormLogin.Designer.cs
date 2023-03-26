@@ -70,6 +70,7 @@
             this.checkBoxMK.TabIndex = 53;
             this.checkBoxMK.Text = "Hiển thị mật khẩu";
             this.checkBoxMK.UseVisualStyleBackColor = true;
+            this.checkBoxMK.CheckedChanged += new System.EventHandler(this.checkBoxMK_CheckedChanged);
             // 
             // buttonThoat
             // 
@@ -80,6 +81,7 @@
             this.buttonThoat.TabIndex = 52;
             this.buttonThoat.Text = "Thoát";
             this.buttonThoat.UseVisualStyleBackColor = true;
+            this.buttonThoat.Click += new System.EventHandler(this.buttonThoat_Click);
             // 
             // buttonDangnhap
             // 
@@ -90,6 +92,7 @@
             this.buttonDangnhap.TabIndex = 51;
             this.buttonDangnhap.Text = "Đăng nhập";
             this.buttonDangnhap.UseVisualStyleBackColor = true;
+            this.buttonDangnhap.Click += new System.EventHandler(this.buttonDangnhap_Click);
             // 
             // txtMatkhau
             // 
@@ -124,6 +127,7 @@
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormLogin_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
