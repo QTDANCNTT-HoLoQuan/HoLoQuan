@@ -99,7 +99,6 @@
             this.buttonThemban.TabIndex = 47;
             this.buttonThemban.Text = "Thêm";
             this.buttonThemban.UseVisualStyleBackColor = true;
-            this.buttonThemban.Click += new System.EventHandler(this.buttonThemban_Click);
             // 
             // txtTenban
             // 
@@ -165,7 +164,6 @@
             this.Controls.Add(this.dataGridViewBan);
             this.Name = "FormQlyBan";
             this.Text = "FormQlyBan";
-            this.Load += new System.EventHandler(this.FormQlyBan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
