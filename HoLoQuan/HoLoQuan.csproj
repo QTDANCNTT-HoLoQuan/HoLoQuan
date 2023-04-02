@@ -58,6 +58,18 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQlyBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQlyBan.Designer.cs">
+      <DependentUpon>FormQlyBan.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQuanTri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQlyBan.resx">
+      <DependentUpon>FormQlyBan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQuanTri.resx">
       <DependentUpon>FormQuanTri.cs</DependentUpon>
@@ -101,6 +119,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\background-nhe-nhang-dep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bghongtim.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -52,10 +52,10 @@ namespace HoLoQuan
 
         private void buttonBan_Click(object sender, EventArgs e)
         {
-            //FormQlyBan qlb = new FormQlyBan();
-            //this.Hide();
-            //qlb.ShowDialog();
-            //this.Show();
+            FormQlyBan qlb = new FormQlyBan();
+            this.Hide();
+            qlb.ShowDialog();
+            this.Show();
         }
 
         private void buttonKho_Click(object sender, EventArgs e)
@@ -65,7 +65,7 @@ namespace HoLoQuan
             //qlk.ShowDialog();
             //this.Show();
         }
-
+        
         private void buttonqlod_Click(object sender, EventArgs e)
         {
             //FormOrder qlo = new FormOrder();
