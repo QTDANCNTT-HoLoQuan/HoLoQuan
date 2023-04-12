@@ -1,0 +1,58 @@
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.exe.config
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.exe
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.pdb
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.AssemblyReference.cache
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.SuggestedBindingRedirects.cache
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.Properties.Resources.resources
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.GenerateResource.cache
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.CoreCompileInputs.cache
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.exe
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.pdb
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormHeThong.resources
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormLogin.resources
+D:\hk2 năm 3 2022-2023\Quản trị dự án\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormQuanTri.resources
+D:\HoLoQuan-main\HoLoQuan\bin\Debug\HoLoQuan.exe.config
+D:\HoLoQuan-main\HoLoQuan\bin\Debug\HoLoQuan.exe
+D:\HoLoQuan-main\HoLoQuan\bin\Debug\HoLoQuan.pdb
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.csproj.AssemblyReference.cache
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.csproj.SuggestedBindingRedirects.cache
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.FormHeThong.resources
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.FormLogin.resources
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.FormQlyBan.resources
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.FormQuanTri.resources
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.Properties.Resources.resources
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.csproj.GenerateResource.cache
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.csproj.CoreCompileInputs.cache
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.exe
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.pdb
+D:\HoLoQuan-main\HoLoQuan\obj\Debug\HoLoQuan.FormMenu.resources
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.exe
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormHeThong.resources
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormLogin.resources
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormMenu.resources
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormQlyBan.resources
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormQuanTri.resources
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.exe
+C:\Users\ADMIN\OneDrive\Máy tính\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.pdb
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.exe.config
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.exe
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\bin\Debug\HoLoQuan.pdb
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormHeThong.resources
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormLogin.resources
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormMenu.resources
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormQlyBan.resources
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.FormQuanTri.resources
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.exe
+C:\Users\ADMIN\Desktop\HoLoQuan\HoLoQuan\obj\Debug\HoLoQuan.pdb
