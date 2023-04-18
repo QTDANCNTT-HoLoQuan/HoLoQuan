@@ -70,6 +70,12 @@
     <Compile Include="FormQlyBan.Designer.cs">
       <DependentUpon>FormQlyBan.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQlyNhapXuatKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQlyNhapXuatKho.Designer.cs">
+      <DependentUpon>FormQlyNhapXuatKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQuanLyKho.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormQlyBan.resx">
       <DependentUpon>FormQlyBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQlyNhapXuatKho.resx">
+      <DependentUpon>FormQlyNhapXuatKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQuanLyKho.resx">
       <DependentUpon>FormQuanLyKho.cs</DependentUpon>
