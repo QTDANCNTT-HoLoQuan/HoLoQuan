@@ -64,6 +64,12 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQkyOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQkyOrder.Designer.cs">
+      <DependentUpon>FormQkyOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQlyBan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQkyOrder.resx">
+      <DependentUpon>FormQkyOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQlyBan.resx">
       <DependentUpon>FormQlyBan.cs</DependentUpon>
