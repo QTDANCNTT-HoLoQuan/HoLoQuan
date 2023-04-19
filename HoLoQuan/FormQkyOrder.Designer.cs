@@ -56,13 +56,13 @@
             // buttonDoiban
             // 
             this.buttonDoiban.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonDoiban.Location = new System.Drawing.Point(759, 584);
-            this.buttonDoiban.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonDoiban.Location = new System.Drawing.Point(675, 467);
             this.buttonDoiban.Name = "buttonDoiban";
-            this.buttonDoiban.Size = new System.Drawing.Size(118, 45);
+            this.buttonDoiban.Size = new System.Drawing.Size(105, 36);
             this.buttonDoiban.TabIndex = 47;
             this.buttonDoiban.Text = "Đổi bàn";
             this.buttonDoiban.UseVisualStyleBackColor = true;
+            this.buttonDoiban.Click += new System.EventHandler(this.buttonDoiban_Click);
             // 
             // groupBox1
             // 
@@ -70,11 +70,9 @@
             this.groupBox1.Controls.Add(this.dataGridViewttb);
             this.groupBox1.Controls.Add(this.txtidb);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(759, 177);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Location = new System.Drawing.Point(675, 142);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(476, 396);
+            this.groupBox1.Size = new System.Drawing.Size(423, 317);
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin bàn";
@@ -82,9 +80,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 34);
+            this.label1.Location = new System.Drawing.Point(6, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 25);
+            this.label1.Size = new System.Drawing.Size(66, 20);
             this.label1.TabIndex = 27;
             this.label1.Text = "ID Bàn:";
             // 
@@ -92,30 +90,28 @@
             // 
             this.dataGridViewttb.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridViewttb.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewttb.Location = new System.Drawing.Point(7, 70);
-            this.dataGridViewttb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dataGridViewttb.Location = new System.Drawing.Point(6, 56);
             this.dataGridViewttb.Name = "dataGridViewttb";
             this.dataGridViewttb.ReadOnly = true;
             this.dataGridViewttb.RowHeadersWidth = 51;
             this.dataGridViewttb.RowTemplate.Height = 24;
-            this.dataGridViewttb.Size = new System.Drawing.Size(462, 319);
+            this.dataGridViewttb.Size = new System.Drawing.Size(411, 255);
             this.dataGridViewttb.TabIndex = 26;
             // 
             // txtidb
             // 
-            this.txtidb.Location = new System.Drawing.Point(91, 30);
-            this.txtidb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtidb.Location = new System.Drawing.Point(81, 24);
             this.txtidb.Name = "txtidb";
-            this.txtidb.Size = new System.Drawing.Size(101, 30);
+            this.txtidb.Size = new System.Drawing.Size(90, 26);
             this.txtidb.TabIndex = 24;
+            this.txtidb.TextChanged += new System.EventHandler(this.txtidb_TextChanged);
             // 
             // buttonGiamgia
             // 
             this.buttonGiamgia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGiamgia.Location = new System.Drawing.Point(929, 584);
-            this.buttonGiamgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonGiamgia.Location = new System.Drawing.Point(826, 467);
             this.buttonGiamgia.Name = "buttonGiamgia";
-            this.buttonGiamgia.Size = new System.Drawing.Size(118, 45);
+            this.buttonGiamgia.Size = new System.Drawing.Size(105, 36);
             this.buttonGiamgia.TabIndex = 43;
             this.buttonGiamgia.Text = "Giảm giá";
             this.buttonGiamgia.UseVisualStyleBackColor = true;
@@ -124,35 +120,34 @@
             // 
             this.cbDoiban.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbDoiban.FormattingEnabled = true;
-            this.cbDoiban.Location = new System.Drawing.Point(759, 636);
-            this.cbDoiban.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbDoiban.Location = new System.Drawing.Point(675, 509);
             this.cbDoiban.Name = "cbDoiban";
-            this.cbDoiban.Size = new System.Drawing.Size(118, 33);
+            this.cbDoiban.Size = new System.Drawing.Size(105, 28);
             this.cbDoiban.TabIndex = 48;
             // 
             // buttonquaylai
             // 
             this.buttonquaylai.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonquaylai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonquaylai.Location = new System.Drawing.Point(30, 11);
-            this.buttonquaylai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonquaylai.Location = new System.Drawing.Point(27, 9);
             this.buttonquaylai.Name = "buttonquaylai";
-            this.buttonquaylai.Size = new System.Drawing.Size(138, 52);
+            this.buttonquaylai.Size = new System.Drawing.Size(123, 42);
             this.buttonquaylai.TabIndex = 46;
             this.buttonquaylai.Text = "Quay lại";
             this.buttonquaylai.UseVisualStyleBackColor = false;
+            this.buttonquaylai.Click += new System.EventHandler(this.buttonquaylai_Click);
             // 
             // buttonThanhtoan
             // 
             this.buttonThanhtoan.BackColor = System.Drawing.Color.Silver;
             this.buttonThanhtoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonThanhtoan.Location = new System.Drawing.Point(1087, 601);
-            this.buttonThanhtoan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonThanhtoan.Location = new System.Drawing.Point(966, 481);
             this.buttonThanhtoan.Name = "buttonThanhtoan";
-            this.buttonThanhtoan.Size = new System.Drawing.Size(147, 70);
+            this.buttonThanhtoan.Size = new System.Drawing.Size(131, 56);
             this.buttonThanhtoan.TabIndex = 45;
             this.buttonThanhtoan.Text = "Thanh toán";
             this.buttonThanhtoan.UseVisualStyleBackColor = false;
+            this.buttonThanhtoan.Click += new System.EventHandler(this.buttonThanhtoan_Click);
             // 
             // cbGiamgia
             // 
@@ -162,19 +157,18 @@
             "10%",
             "20%",
             "50%"});
-            this.cbGiamgia.Location = new System.Drawing.Point(929, 636);
-            this.cbGiamgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbGiamgia.Location = new System.Drawing.Point(826, 509);
             this.cbGiamgia.Name = "cbGiamgia";
-            this.cbGiamgia.Size = new System.Drawing.Size(118, 33);
+            this.cbGiamgia.Size = new System.Drawing.Size(105, 28);
             this.cbGiamgia.TabIndex = 44;
+            this.cbGiamgia.SelectedIndexChanged += new System.EventHandler(this.cbGiamgia_SelectedIndexChanged);
             // 
             // nrSoluong
             // 
             this.nrSoluong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nrSoluong.Location = new System.Drawing.Point(1031, 110);
-            this.nrSoluong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nrSoluong.Location = new System.Drawing.Point(916, 88);
             this.nrSoluong.Name = "nrSoluong";
-            this.nrSoluong.Size = new System.Drawing.Size(64, 30);
+            this.nrSoluong.Size = new System.Drawing.Size(57, 26);
             this.nrSoluong.TabIndex = 42;
             this.nrSoluong.Value = new decimal(new int[] {
             1,
@@ -186,52 +180,48 @@
             // 
             this.buttonThemmon.BackColor = System.Drawing.Color.Silver;
             this.buttonThemmon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonThemmon.Location = new System.Drawing.Point(1112, 81);
-            this.buttonThemmon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonThemmon.Location = new System.Drawing.Point(988, 65);
             this.buttonThemmon.Name = "buttonThemmon";
-            this.buttonThemmon.Size = new System.Drawing.Size(123, 89);
+            this.buttonThemmon.Size = new System.Drawing.Size(109, 71);
             this.buttonThemmon.TabIndex = 41;
             this.buttonThemmon.Text = "Thêm món";
             this.buttonThemmon.UseVisualStyleBackColor = false;
+            this.buttonThemmon.Click += new System.EventHandler(this.buttonThemmon_Click);
             // 
             // comboBoxMon
             // 
             this.comboBoxMon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxMon.FormattingEnabled = true;
-            this.comboBoxMon.Location = new System.Drawing.Point(759, 135);
-            this.comboBoxMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.comboBoxMon.Location = new System.Drawing.Point(675, 108);
             this.comboBoxMon.Name = "comboBoxMon";
-            this.comboBoxMon.Size = new System.Drawing.Size(252, 33);
+            this.comboBoxMon.Size = new System.Drawing.Size(224, 28);
             this.comboBoxMon.TabIndex = 40;
             // 
             // flpTable
             // 
             this.flpTable.AutoScroll = true;
-            this.flpTable.Location = new System.Drawing.Point(7, 31);
-            this.flpTable.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.flpTable.Location = new System.Drawing.Point(6, 25);
             this.flpTable.Name = "flpTable";
-            this.flpTable.Size = new System.Drawing.Size(648, 561);
+            this.flpTable.Size = new System.Drawing.Size(576, 449);
             this.flpTable.TabIndex = 35;
             // 
             // comboBoxLoai
             // 
             this.comboBoxLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxLoai.FormattingEnabled = true;
-            this.comboBoxLoai.Location = new System.Drawing.Point(759, 81);
-            this.comboBoxLoai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.comboBoxLoai.Location = new System.Drawing.Point(675, 65);
             this.comboBoxLoai.Name = "comboBoxLoai";
-            this.comboBoxLoai.Size = new System.Drawing.Size(252, 33);
+            this.comboBoxLoai.Size = new System.Drawing.Size(224, 28);
             this.comboBoxLoai.TabIndex = 39;
+            this.comboBoxLoai.SelectedIndexChanged += new System.EventHandler(this.comboBoxLoai_SelectedIndexChanged);
             // 
             // groupBoxBan
             // 
             this.groupBoxBan.Controls.Add(this.flpTable);
             this.groupBoxBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxBan.Location = new System.Drawing.Point(47, 81);
-            this.groupBoxBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBoxBan.Location = new System.Drawing.Point(42, 65);
             this.groupBoxBan.Name = "groupBoxBan";
-            this.groupBoxBan.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBoxBan.Size = new System.Drawing.Size(662, 600);
+            this.groupBoxBan.Size = new System.Drawing.Size(588, 480);
             this.groupBoxBan.TabIndex = 37;
             this.groupBoxBan.TabStop = false;
             this.groupBoxBan.Text = "Bàn";
@@ -242,10 +232,10 @@
             // 
             // FormQkyOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::HoLoQuan.Properties.Resources.bghongtim;
-            this.ClientSize = new System.Drawing.Size(1325, 728);
+            this.ClientSize = new System.Drawing.Size(1178, 582);
             this.Controls.Add(this.buttonDoiban);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.buttonGiamgia);
@@ -258,8 +248,10 @@
             this.Controls.Add(this.comboBoxMon);
             this.Controls.Add(this.comboBoxLoai);
             this.Controls.Add(this.groupBoxBan);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormQkyOrder";
             this.Text = "FormQkyOrder";
+            this.Load += new System.EventHandler(this.FormQkyOrder_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewttb)).EndInit();
